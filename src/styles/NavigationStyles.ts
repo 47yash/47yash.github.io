@@ -49,17 +49,20 @@ export const NavItem = styled(motion.li)`
 `;
 
 export const NavLink = styled.a`
-  color: ${({ theme }) => theme.colors.gray400};
-  transition-property: color, transform;
-  transition-duration: 300ms;
+  background: linear-gradient(135deg, #D4AF37 0%, #FFF2CD 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 600;
+  transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.gray100};
-    transform: translateY(-2px);
+    transform: translateY(-2px) scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));
   }
 
   @media (max-width: 480px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 `;
