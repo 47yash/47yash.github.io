@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth; /* Equivalent to @apply scroll-smooth */
+}
+
+body {
+    background-color: #1c1c1c; /* Equivalent to @apply bg-ink */
+    color: #d1d5db; /* Equivalent to @apply text-gray-300 */
+    font-family: 'Inter', sans-serif; /* Equivalent to @apply font-sans */
+}
