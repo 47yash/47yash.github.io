@@ -17,6 +17,11 @@ export const HeroSection = styled(motion.section)`
 `;
 
 export const HeroTitle = styled(motion.h1)`
+  background: linear-gradient(135deg, #D4AF37 0%, #FFF2CD 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 15px rgba(212, 175, 55, 0.4);
+
   font-family: ${({ theme }) => theme.fonts.serif};
   font-size: 3.75rem;
   color: ${({ theme }) => theme.colors.gray100};
@@ -52,4 +57,12 @@ export const HeroParagraph = styled(motion.p)`
     font-size: 1rem;
     max-width: 100%;
   }
+`;
+
+export const GoldHighlight = styled.span`
+  background: linear-gradient(135deg, #D4AF37 0%, #FFF2CD 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 15px rgba(212, 175, 55, 0.4);
+  font-weight: 600;
 `;

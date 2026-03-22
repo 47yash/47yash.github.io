@@ -15,7 +15,7 @@ const Navigation = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] as const, delay: 1.8 }}
       >
-        <img src={royalLogo} alt="Yash Gangane Logo" style={{ height: '45px', objectFit: 'contain', filter: 'drop-shadow(0 2px 5px rgba(212, 175, 55, 0.3))' }} />
+        <img src={royalLogo} alt="Yash Gangane Logo" style={{ height: '48px', objectFit: 'contain', filter: 'drop-shadow(0 0px 15px rgba(212, 175, 55, 0.9)) brightness(1.2)' }} />
       </Logo>
       <nav>
         <NavList>

@@ -17,6 +17,11 @@ export const AboutSectionContainer = styled(motion.section)`
 `;
 
 export const AboutTitle = styled(motion.h2)`
+  background: linear-gradient(135deg, #D4AF37 0%, #FFF2CD 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 15px rgba(212, 175, 55, 0.4);
+
   font-size: 1.875rem;
   font-weight: 500;
   color: ${({ theme }) => theme.colors.gray200};

@@ -1,5 +1,5 @@
 import { Variants } from 'framer-motion';
-import { HeroSection, HeroTitle, HeroParagraph } from '../styles/HeroStyles'; // Import styled components
+import { HeroSection, HeroTitle, HeroParagraph, GoldHighlight } from '../styles/HeroStyles'; // Import styled components
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -37,7 +37,7 @@ const Hero = () => {
         YASH GANGANE
       </HeroTitle>
       <HeroParagraph variants={itemVariants}>
-        Software Developer with experience in Java-based backend development and production support. Strong expertise in Java, Spring Boot, SQL, Unix/Linux environments, and cloud platforms like AWS.
+        <GoldHighlight>Software Developer</GoldHighlight> with experience in Java-based backend development and production support. Strong expertise in Java, Spring Boot, SQL, Unix/Linux environments, and cloud platforms like AWS.
       </HeroParagraph>
     </HeroSection>
   );
