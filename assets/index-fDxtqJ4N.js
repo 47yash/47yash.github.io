@@ -91,7 +91,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 0.9rem;
   }
-`,oC=["About","Projects","Contact"],sC=()=>P.jsxs(eC,{initial:{opacity:0},animate:{opacity:1},transition:{duration:1,delay:1.5},children:[P.jsx(tC,{initial:{opacity:0,y:-12},animate:{opacity:1,y:0},transition:{duration:.8,ease:[.4,0,.2,1],delay:1.8},children:"YG"}),P.jsx("nav",{children:P.jsx(nC,{children:oC.map((e,t)=>P.jsx(rC,{initial:{opacity:0,y:-12},animate:{opacity:1,y:0},transition:{duration:.8,ease:[.4,0,.2,1],delay:2+t*.1},children:P.jsx(iC,{href:`#${e.toLowerCase()}`,children:e})},e))})})]}),aC=V(B.section)`
+`,oC="/assets/royal-logo-h9QeLNuy.png",sC=["About","Projects","Contact"],aC=()=>P.jsxs(eC,{initial:{opacity:0},animate:{opacity:1},transition:{duration:1,delay:1.5},children:[P.jsx(tC,{initial:{opacity:0,y:-12},animate:{opacity:1,y:0},transition:{duration:.8,ease:[.4,0,.2,1],delay:1.8},children:P.jsx("img",{src:oC,alt:"Yash Gangane Logo",style:{height:"45px",objectFit:"contain",filter:"drop-shadow(0 2px 5px rgba(212, 175, 55, 0.3))"}})}),P.jsx("nav",{children:P.jsx(nC,{children:sC.map((e,t)=>P.jsx(rC,{initial:{opacity:0,y:-12},animate:{opacity:1,y:0},transition:{duration:.8,ease:[.4,0,.2,1],delay:2+t*.1},children:P.jsx(iC,{href:`#${e.toLowerCase()}`,children:e})},e))})})]}),lC=V(B.section)`
   padding-top: 6rem;
   padding-bottom: 6rem;
 
@@ -104,7 +104,7 @@ Error generating stack: `+o.message+`
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-`,lC=V(B.h1)`
+`,uC=V(B.h1)`
   font-family: ${({theme:e})=>e.fonts.serif};
   font-size: 3.75rem;
   color: ${({theme:e})=>e.colors.gray100};
@@ -120,7 +120,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 2.25rem;
   }
-`,uC=V(B.p)`
+`,cC=V(B.p)`
   margin-top: 1rem;
   font-size: 1.25rem;
   color: ${({theme:e})=>e.colors.gray400};
@@ -138,7 +138,7 @@ Error generating stack: `+o.message+`
     font-size: 1rem;
     max-width: 100%;
   }
-`,cC={hidden:{opacity:0},visible:{opacity:1,transition:{staggerChildren:.2,delayChildren:.5}}},kh={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},fC=()=>P.jsxs(aC,{variants:cC,initial:"hidden",animate:"visible",children:[P.jsx(lC,{variants:kh,children:"YASH GANGANE"}),P.jsx(uC,{variants:kh,children:"Software Developer with experience in Java-based backend development and production support. Strong expertise in Java, Spring Boot, SQL, Unix/Linux environments, and cloud platforms like AWS."})]}),dC=V(B.section)`
+`,fC={hidden:{opacity:0},visible:{opacity:1,transition:{staggerChildren:.2,delayChildren:.5}}},kh={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},dC=()=>P.jsxs(lC,{variants:fC,initial:"hidden",animate:"visible",children:[P.jsx(uC,{variants:kh,children:"YASH GANGANE"}),P.jsx(cC,{variants:kh,children:"Software Developer with experience in Java-based backend development and production support. Strong expertise in Java, Spring Boot, SQL, Unix/Linux environments, and cloud platforms like AWS."})]}),hC=V(B.section)`
   padding-top: 4rem;
   padding-bottom: 4rem;
 
@@ -151,7 +151,7 @@ Error generating stack: `+o.message+`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-`,hC=V(B.h2)`
+`,pC=V(B.h2)`
   font-size: 1.875rem;
   font-weight: 500;
   color: ${({theme:e})=>e.colors.gray200};
@@ -163,13 +163,13 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1.25rem;
   }
-`,pC=V(B.div)`
+`,mC=V(B.div)`
   margin-top: 1rem;
   height: 2px;
   width: 6rem;
   background-color: ${({theme:e})=>e.colors.metal};
   transform-origin: left;
-`,mC=V(B.div)`
+`,gC=V(B.div)`
   margin-top: 2rem;
   & > p {
     margin-bottom: 1.5rem;
@@ -189,7 +189,7 @@ Error generating stack: `+o.message+`
     font-size: 0.875rem;
     max-width: 100%;
   }
-`,gC={hidden:{},visible:{transition:{staggerChildren:.2,delayChildren:.8}}},Ch={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},yC={hidden:{scaleX:0},visible:{scaleX:1,transition:{duration:1,ease:[.4,0,.2,1],delay:.5}}},vC=()=>P.jsxs(dC,{id:"about",variants:gC,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.3},children:[P.jsx(hC,{variants:Ch,children:"About Me"}),P.jsx(pC,{variants:yC}),P.jsx(mC,{variants:Ch,children:P.jsx("p",{children:"From the foundations of robust back-end systems to the elegant spires of performant user interfaces, I architect digital realms. My dominion extends across the vast landscapes of Java, Spring Boot, and AWS, where I command the forces of code to build resilient and scalable enterprise systems. With a steady hand, I ensure the stability of business-critical applications and lead the charge in migrating legacy systems to modern cloud fortresses."})})]}),wC=V(B.section)`
+`,yC={hidden:{},visible:{transition:{staggerChildren:.2,delayChildren:.8}}},Ch={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},vC={hidden:{scaleX:0},visible:{scaleX:1,transition:{duration:1,ease:[.4,0,.2,1],delay:.5}}},wC=()=>P.jsxs(hC,{id:"about",variants:yC,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.3},children:[P.jsx(pC,{variants:Ch,children:"About Me"}),P.jsx(mC,{variants:vC}),P.jsx(gC,{variants:Ch,children:P.jsx("p",{children:"From the foundations of robust back-end systems to the elegant spires of performant user interfaces, I architect digital realms. My dominion extends across the vast landscapes of Java, Spring Boot, and AWS, where I command the forces of code to build resilient and scalable enterprise systems. With a steady hand, I ensure the stability of business-critical applications and lead the charge in migrating legacy systems to modern cloud fortresses."})})]}),xC=V(B.section)`
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
@@ -205,7 +205,7 @@ Error generating stack: `+o.message+`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-`,xC=V(B.h2)`
+`,SC=V(B.h2)`
   font-size: 1.875rem;
   font-weight: 500;
   color: ${({theme:e})=>e.colors.gray200};
@@ -217,7 +217,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1.25rem;
   }
-`,SC=V(B.div)`
+`,kC=V(B.div)`
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -237,7 +237,7 @@ Error generating stack: `+o.message+`
     margin-top: 1.5rem;
     gap: 1.5rem;
   }
-`,kC=V.div`
+`,CC=V.div`
   background-color: ${({theme:e})=>e.colors.charcoal};
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -252,7 +252,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     padding: 1rem;
   }
-`,CC=V.h3`
+`,TC=V.h3`
   font-size: 1.25rem;
   font-family: ${({theme:e})=>e.fonts.serif};
   color: ${({theme:e})=>e.colors.gray100};
@@ -260,7 +260,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1.1rem;
   }
-`,TC=V.p`
+`,PC=V.p`
   margin-top: 0.5rem;
   color: ${({theme:e})=>e.colors.gray400};
 
@@ -281,12 +281,12 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 0.8rem;
   }
-`;const PC=V.div`
+`;const EC=V.div`
   margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-`,EC=V.span`
+`,AC=V.span`
   background-color: ${({theme:e})=>e.colors.ink};
   color: ${({theme:e})=>e.colors.metal};
   font-size: 0.875rem;
@@ -301,7 +301,7 @@ Error generating stack: `+o.message+`
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
-`,AC=[{title:"Project GRAMSAHAY",description:"Robust Full-Stack Solution for grievance Redressal System.",tags:["SpringBoot","React.js","MYSQL","Hibernate","BootStrap"]},{title:"Project GainGame",description:"Skill Building Web Platform which is AI based to learn any skill. This websites let you track your progress like a real game you will have to level up to master the skill.",tags:["SpringBoot","React.js","MYSQL","Hibernate","Tailwind CSS","JWT","Spring Security","LLM","AI"]},{title:"Real-Time Tracking System",description:"Designed and implemented an event-driven real-time tracking system enabling low-latency geolocation updates and interactive map visualization.",tags:["Spring Boot","WebSocket (STOMP)","Redis","React","Leaflet.js","Docker"]}],MC={hidden:{},visible:{transition:{staggerChildren:.2}}},Th={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},DC=()=>P.jsxs(wC,{id:"projects",variants:MC,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(xC,{variants:Th,children:"Featured Projects"}),P.jsx(SC,{variants:Th,children:AC.map(e=>P.jsxs(kC,{children:[P.jsx(CC,{children:e.title}),P.jsx(TC,{children:e.description}),P.jsx(PC,{children:e.tags.map(t=>P.jsx(EC,{children:t},t))})]},e.title))})]}),RC=V(B.section)`
+`,MC=[{title:"Project GRAMSAHAY",description:"Robust Full-Stack Solution for grievance Redressal System.",tags:["SpringBoot","React.js","MYSQL","Hibernate","BootStrap"]},{title:"Project GainGame",description:"Skill Building Web Platform which is AI based to learn any skill. This websites let you track your progress like a real game you will have to level up to master the skill.",tags:["SpringBoot","React.js","MYSQL","Hibernate","Tailwind CSS","JWT","Spring Security","LLM","AI"]},{title:"Real-Time Tracking System",description:"Designed and implemented an event-driven real-time tracking system enabling low-latency geolocation updates and interactive map visualization.",tags:["Spring Boot","WebSocket (STOMP)","Redis","React","Leaflet.js","Docker"]}],DC={hidden:{},visible:{transition:{staggerChildren:.2}}},Th={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},RC=()=>P.jsxs(xC,{id:"projects",variants:DC,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(SC,{variants:Th,children:"Featured Projects"}),P.jsx(kC,{variants:Th,children:MC.map(e=>P.jsxs(CC,{children:[P.jsx(TC,{children:e.title}),P.jsx(PC,{children:e.description}),P.jsx(EC,{children:e.tags.map(t=>P.jsx(AC,{children:t},t))})]},e.title))})]}),LC=V(B.section)`
   padding-top: 4rem;
   padding-bottom: 4rem;
 
@@ -314,7 +314,7 @@ Error generating stack: `+o.message+`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-`,LC=V(B.h2)`
+`,VC=V(B.h2)`
   font-size: 1.875rem;
   font-weight: 500;
   color: ${({theme:e})=>e.colors.gray200};
@@ -330,7 +330,7 @@ Error generating stack: `+o.message+`
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
   }
-`,VC=V(B.div)`
+`,IC=V(B.div)`
   position: relative;
   display: grid;
   gap: 2rem;
@@ -359,7 +359,7 @@ Error generating stack: `+o.message+`
     }
     gap: 1rem;
   }
-`,IC=V(B.div)`
+`,jC=V(B.div)`
   position: relative;
   background-color: ${({theme:e})=>e.colors.charcoal};
   padding: 1.5rem 1.5rem 1.5rem 4rem;
@@ -396,12 +396,12 @@ Error generating stack: `+o.message+`
       height: 0.8rem;
     }
   }
-`,jC=V.div`
+`,NC=V.div`
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 0.5rem;
-`,NC=V.svg`
+`,_C=V.svg`
   width: 1.5rem;
   height: 1.5rem;
   color: ${({theme:e})=>e.colors.gray400};
@@ -410,7 +410,7 @@ Error generating stack: `+o.message+`
     width: 1.25rem;
     height: 1.25rem;
   }
-`,_C=V.h3`
+`,zC=V.h3`
   font-size: 1.25rem;
   font-weight: 500;
   color: ${({theme:e})=>e.colors.gray100};
@@ -418,7 +418,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1.1rem;
   }
-`,zC=V.p`
+`,OC=V.p`
   font-size: 1rem;
   color: ${({theme:e})=>e.colors.gray400};
   margin-bottom: 1rem;
@@ -427,7 +427,7 @@ Error generating stack: `+o.message+`
     font-size: 0.9rem;
     margin-bottom: 0.75rem;
   }
-`,OC=V(B.ul)`
+`,FC=V(B.ul)`
   list-style-position: inside;
   padding-left: 0;
   color: ${({theme:e})=>e.colors.gray300};
@@ -443,7 +443,7 @@ Error generating stack: `+o.message+`
       padding-left: 0.5rem;
     }
   }
-`,FC=[{company:"AMDOCS",role:"Software Developer",date:"Apr 24 - Present",description:["Migrated legacy Java applications to Spring Boot, improving performance by 30% and system stability.","Used React.js, enhancing UI responsiveness and reducing production issues by 50% .","Replaced MQ-based integrations with REST APIs, reducing data latency by 60%.","Supported and maintained backend services, including incident analysis, troubleshooting, and root-cause resolution.","Led partial cloud migration to AWS (EC2, S3, RDS) with minimal downtime.","Worked in Agile/Scrum environment using JIRA, Git, CI/CD pipelines.","Developed and supported microservices for large-scale enterprise applications."]}],BC={hidden:{},visible:{transition:{staggerChildren:.2}}},Ph={hidden:{opacity:0,y:20},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},$C={visible:{transition:{staggerChildren:.1}}},UC={hidden:{opacity:0,x:-20},visible:{opacity:1,x:0,transition:{duration:.8,ease:"easeOut"}}},bC=()=>P.jsxs(RC,{id:"experience",variants:BC,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(LC,{variants:Ph,children:"Experience"}),P.jsx(VC,{children:FC.map(e=>P.jsxs(IC,{variants:Ph,children:[P.jsxs(jC,{children:[P.jsxs(NC,{xmlns:"http://www.w3.org/2000/svg",className:"icon icon-tabler icon-tabler-briefcase",width:"24",height:"24",viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round",children:[P.jsx("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),P.jsx("path",{d:"M3 7h18a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-18a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"}),P.jsx("path",{d:"M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"}),P.jsx("line",{x1:"12",y1:"12",x2:"12",y2:"12.01"}),P.jsx("path",{d:"M3 13h18"})]}),P.jsxs("div",{children:[P.jsx(_C,{children:e.role}),P.jsxs(zC,{children:[e.company," | ",e.date]})]})]}),P.jsx(OC,{variants:$C,initial:"hidden",animate:"visible",children:e.description.map((t,n)=>P.jsx(B.li,{variants:UC,children:t},n))})]},e.company))})]}),WC=V(B.section)`
+`,BC=[{company:"AMDOCS",role:"Software Developer",date:"Apr 24 - Present",description:["Migrated legacy Java applications to Spring Boot, improving performance by 30% and system stability.","Used React.js, enhancing UI responsiveness and reducing production issues by 50% .","Replaced MQ-based integrations with REST APIs, reducing data latency by 60%.","Supported and maintained backend services, including incident analysis, troubleshooting, and root-cause resolution.","Led partial cloud migration to AWS (EC2, S3, RDS) with minimal downtime.","Worked in Agile/Scrum environment using JIRA, Git, CI/CD pipelines.","Developed and supported microservices for large-scale enterprise applications."]}],$C={hidden:{},visible:{transition:{staggerChildren:.2}}},Ph={hidden:{opacity:0,y:20},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},UC={visible:{transition:{staggerChildren:.1}}},bC={hidden:{opacity:0,x:-20},visible:{opacity:1,x:0,transition:{duration:.8,ease:"easeOut"}}},WC=()=>P.jsxs(LC,{id:"experience",variants:$C,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(VC,{variants:Ph,children:"Experience"}),P.jsx(IC,{children:BC.map(e=>P.jsxs(jC,{variants:Ph,children:[P.jsxs(NC,{children:[P.jsxs(_C,{xmlns:"http://www.w3.org/2000/svg",className:"icon icon-tabler icon-tabler-briefcase",width:"24",height:"24",viewBox:"0 0 24 24",strokeWidth:"2",stroke:"currentColor",fill:"none",strokeLinecap:"round",strokeLinejoin:"round",children:[P.jsx("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),P.jsx("path",{d:"M3 7h18a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-18a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"}),P.jsx("path",{d:"M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"}),P.jsx("line",{x1:"12",y1:"12",x2:"12",y2:"12.01"}),P.jsx("path",{d:"M3 13h18"})]}),P.jsxs("div",{children:[P.jsx(zC,{children:e.role}),P.jsxs(OC,{children:[e.company," | ",e.date]})]})]}),P.jsx(FC,{variants:UC,initial:"hidden",animate:"visible",children:e.description.map((t,n)=>P.jsx(B.li,{variants:bC,children:t},n))})]},e.company))})]}),HC=V(B.section)`
   padding-top: 6rem;
   padding-bottom: 6rem;
   background: radial-gradient(circle at center, ${({theme:e})=>e.colors.charcoal} 0%, ${({theme:e})=>e.colors.ink} 100%);
@@ -452,7 +452,7 @@ Error generating stack: `+o.message+`
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-`,HC=V(B.h2)`
+`,KC=V(B.h2)`
   font-size: 2.75rem;
   font-family: ${({theme:e})=>e.fonts.serif};
   background: linear-gradient(135deg, ${({theme:e})=>e.colors.gray100} 0%, ${({theme:e})=>e.colors.metal} 100%);
@@ -476,7 +476,7 @@ Error generating stack: `+o.message+`
     font-size: 2rem;
     margin-bottom: 2.5rem;
   }
-`,KC=V(B.div)`
+`,GC=V(B.div)`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 2.5rem;
@@ -491,7 +491,7 @@ Error generating stack: `+o.message+`
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 1.25rem;
   }
-`,GC=V(B.div)`
+`,YC=V(B.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -536,7 +536,7 @@ Error generating stack: `+o.message+`
     padding: 1.5rem 1rem;
     min-height: 220px;
   }
-`,YC=V(B.img)`
+`,XC=V(B.img)`
   width: 64px;
   height: 64px;
   margin-bottom: 1.5rem;
@@ -548,7 +548,7 @@ Error generating stack: `+o.message+`
     height: 48px;
     margin-bottom: 1rem;
   }
-`,XC=V.span`
+`,QC=V.span`
   font-size: 1.25rem;
   font-weight: 600;
   color: ${({theme:e})=>e.colors.gray100};
@@ -558,7 +558,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1rem;
   }
-`,QC=V.p`
+`,ZC=V.p`
   font-size: 0.9rem;
   line-height: 1.5;
   color: ${({theme:e})=>e.colors.gray400};
@@ -566,7 +566,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 0.8rem;
   }
-`,ZC="/assets/Docker-CbK74382.png",JC="/assets/DSA-DX5qGrmP.jfif",qC="/assets/HTML-Bi5NNnKM.jfif",eT="/assets/JAVA-Bn6xBKuA.png",tT="/assets/JPA-DqJgXlNA.png",nT="/assets/OOP-H1E-083G.png",rT="/assets/rest-BGVoKSrp.png",iT="data:image/webp;base64,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",oT="/assets/Jenkins-U7RfjNvc.jfif",sT="/assets/Hibernate_logo-DhcAqlLx.webp",aT=[{name:"Java",logo:eT,description:"A robust, object-oriented programming language."},{name:"JavaScript",logo:"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",description:"A versatile scripting language for web development."},{name:"C++",logo:"https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",description:"A powerful language for system-level programming."},{name:"C#",logo:"https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",description:"A modern, object-oriented language from Microsoft."},{name:"Spring Boot",logo:"https://www.svgrepo.com/show/354380/spring-icon.svg",description:"A framework for building production-ready Spring applications."},{name:"JPA",logo:tT,description:"A specification for object-relational mapping in Java."},{name:"Hibernate",logo:sT,description:"A popular ORM framework for Java."},{name:"REST APIs",logo:rT,description:"Designing and building RESTful web services."},{name:"Maven",logo:"https://maven.apache.org/images/maven-logo-black-on-white.svg",description:"A build automation and project management tool."},{name:"Gradle",logo:iT,description:"A modern build automation tool."},{name:"React.js",logo:"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",description:"A JavaScript library for building user interfaces."},{name:"HTML",logo:qC,description:"The standard markup language for web pages."},{name:"CSS",logo:"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",description:"A stylesheet language for describing the presentation of a document."},{name:"Bootstrap",logo:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",description:"A popular CSS framework for responsive web design."},{name:"MySQL",logo:"https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",description:"A widely used relational database management system."},{name:"MongoDB",logo:"https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",description:"A popular NoSQL document-oriented database."},{name:"AWS",logo:"https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",description:"A suite of cloud computing services from Amazon."},{name:"Git",logo:"https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",description:"A distributed version control system."},{name:"Docker",logo:ZC,description:"A platform for developing, shipping, and running applications in containers."},{name:"CI/CD",logo:oT,description:"Continuous Integration and Continuous Delivery."},{name:"OOP",logo:nT,description:"Object-Oriented Programming."},{name:"DSA",logo:JC,description:"Data Structures and Algorithms."}],lT={hidden:{},visible:{transition:{staggerChildren:.15,delayChildren:.1}}},Eh={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},uT=()=>P.jsxs(WC,{id:"skills",variants:lT,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(HC,{variants:Eh,children:"Skills"}),P.jsx(KC,{variants:Eh,children:aT.map(e=>P.jsxs(GC,{children:[P.jsx(YC,{src:e.logo,alt:e.name,initial:{opacity:0,scale:.8},animate:{opacity:1,scale:1},transition:{duration:.5}}),P.jsx(XC,{children:e.name}),P.jsx(QC,{children:e.description})]},e.name))})]}),cT=V(B.section)`
+`,JC="/assets/Docker-CbK74382.png",qC="/assets/DSA-DX5qGrmP.jfif",eT="/assets/HTML-Bi5NNnKM.jfif",tT="/assets/JAVA-Bn6xBKuA.png",nT="/assets/JPA-DqJgXlNA.png",rT="/assets/OOP-H1E-083G.png",iT="/assets/rest-BGVoKSrp.png",oT="data:image/webp;base64,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",sT="/assets/Jenkins-U7RfjNvc.jfif",aT="/assets/Hibernate_logo-DhcAqlLx.webp",lT=[{name:"Java",logo:tT,description:"A robust, object-oriented programming language."},{name:"JavaScript",logo:"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",description:"A versatile scripting language for web development."},{name:"C++",logo:"https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",description:"A powerful language for system-level programming."},{name:"C#",logo:"https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",description:"A modern, object-oriented language from Microsoft."},{name:"Spring Boot",logo:"https://www.svgrepo.com/show/354380/spring-icon.svg",description:"A framework for building production-ready Spring applications."},{name:"JPA",logo:nT,description:"A specification for object-relational mapping in Java."},{name:"Hibernate",logo:aT,description:"A popular ORM framework for Java."},{name:"REST APIs",logo:iT,description:"Designing and building RESTful web services."},{name:"Maven",logo:"https://maven.apache.org/images/maven-logo-black-on-white.svg",description:"A build automation and project management tool."},{name:"Gradle",logo:oT,description:"A modern build automation tool."},{name:"React.js",logo:"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",description:"A JavaScript library for building user interfaces."},{name:"HTML",logo:eT,description:"The standard markup language for web pages."},{name:"CSS",logo:"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",description:"A stylesheet language for describing the presentation of a document."},{name:"Bootstrap",logo:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",description:"A popular CSS framework for responsive web design."},{name:"MySQL",logo:"https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",description:"A widely used relational database management system."},{name:"MongoDB",logo:"https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",description:"A popular NoSQL document-oriented database."},{name:"AWS",logo:"https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",description:"A suite of cloud computing services from Amazon."},{name:"Git",logo:"https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",description:"A distributed version control system."},{name:"Docker",logo:JC,description:"A platform for developing, shipping, and running applications in containers."},{name:"CI/CD",logo:sT,description:"Continuous Integration and Continuous Delivery."},{name:"OOP",logo:rT,description:"Object-Oriented Programming."},{name:"DSA",logo:qC,description:"Data Structures and Algorithms."}],uT={hidden:{},visible:{transition:{staggerChildren:.15,delayChildren:.1}}},Eh={hidden:{opacity:0,y:30},visible:{opacity:1,y:0,transition:{type:"spring",stiffness:80,damping:20,mass:1}}},cT=()=>P.jsxs(HC,{id:"skills",variants:uT,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.2},children:[P.jsx(KC,{variants:Eh,children:"Skills"}),P.jsx(GC,{variants:Eh,children:lT.map(e=>P.jsxs(YC,{children:[P.jsx(XC,{src:e.logo,alt:e.name,initial:{opacity:0,scale:.8},animate:{opacity:1,scale:1},transition:{duration:.5}}),P.jsx(QC,{children:e.name}),P.jsx(ZC,{children:e.description})]},e.name))})]}),fT=V(B.section)`
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -580,7 +580,7 @@ Error generating stack: `+o.message+`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-`,fT=V(B.h2)`
+`,dT=V(B.h2)`
   font-size: 1.875rem;
   font-weight: 500;
   color: ${({theme:e})=>e.colors.gray200};
@@ -592,7 +592,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 1.25rem;
   }
-`,dT=V(B.p)`
+`,hT=V(B.p)`
   margin-top: 1rem;
   font-size: 1.125rem;
   color: ${({theme:e})=>e.colors.gray400};
@@ -627,7 +627,7 @@ Error generating stack: `+o.message+`
   &:hover {
     background-color: rgba( ${({theme:e})=>parseInt(e.colors.metal.slice(1,3),16)}, ${({theme:e})=>parseInt(e.colors.metal.slice(3,5),16)}, ${({theme:e})=>parseInt(e.colors.metal.slice(5,7),16)}, 0.8);
   }
-`;const hT=V(B.div)`
+`;const pT=V(B.div)`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -667,7 +667,7 @@ Error generating stack: `+o.message+`
     width: 1.25rem;
     height: 1.25rem;
   }
-`,pT={hidden:{},visible:{transition:{staggerChildren:.2}}},Fa={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},mT=()=>P.jsxs(cT,{id:"contact",variants:pT,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.3},children:[P.jsx(fT,{variants:Fa,children:"Get In Touch"}),P.jsx(dT,{variants:Fa,children:"I'm always open to discussing new projects, creative ideas, or opportunities to be part of an ambitious vision. Feel free to reach out."}),P.jsxs(hT,{variants:Fa,children:[P.jsxs(za,{href:"https://www.linkedin.com/in/yash-gangane-656004194/",target:"_blank",rel:"noopener noreferrer",children:[P.jsx(Oa,{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.044-1.852-3.044-1.853 0-2.136 1.445-2.136 2.939v5.674H9.573V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.923-2.063-2.065 0-1.145.92-2.066 2.063-2.066 1.145 0 2.064.922 2.064 2.066 0 1.142-.92 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.227 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.456c.98 0 1.772-.773 1.772-1.729V1.729C24 .774 23.207 0 22.227 0z"})}),P.jsx("span",{children:"LinkedIn"})]}),P.jsxs(za,{href:"https://mail.google.com/mail/?view=cm&fs=1&to=yashgangane987@gmail.com",target:"_blank",rel:"noopener noreferrer",children:[P.jsx(Oa,{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"})}),P.jsx("span",{children:"Email"})]}),P.jsxs(za,{href:"tel:9021963099",children:[P.jsx(Oa,{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20 22.001h-16c-1.105 0-2-.896-2-2v-16c0-1.105.895-2 2-2h16c1.105 0 2 .895 2 2v16c0 1.104-.895 2-2 2zm-11-19.001h-2v-1h2v1zm4 0h-2v-1h2v1zm4 0h-2v-1h2v1zm-11 16h10v-1h-10v1zm12-1h-14v-14h14v14z"})}),P.jsx("span",{children:"Call"})]})]})]}),gT=V.footer`
+`,mT={hidden:{},visible:{transition:{staggerChildren:.2}}},Fa={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},gT=()=>P.jsxs(fT,{id:"contact",variants:mT,initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.3},children:[P.jsx(dT,{variants:Fa,children:"Get In Touch"}),P.jsx(hT,{variants:Fa,children:"I'm always open to discussing new projects, creative ideas, or opportunities to be part of an ambitious vision. Feel free to reach out."}),P.jsxs(pT,{variants:Fa,children:[P.jsxs(za,{href:"https://www.linkedin.com/in/yash-gangane-656004194/",target:"_blank",rel:"noopener noreferrer",children:[P.jsx(Oa,{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.044-1.852-3.044-1.853 0-2.136 1.445-2.136 2.939v5.674H9.573V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.923-2.063-2.065 0-1.145.92-2.066 2.063-2.066 1.145 0 2.064.922 2.064 2.066 0 1.142-.92 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.227 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.456c.98 0 1.772-.773 1.772-1.729V1.729C24 .774 23.207 0 22.227 0z"})}),P.jsx("span",{children:"LinkedIn"})]}),P.jsxs(za,{href:"https://mail.google.com/mail/?view=cm&fs=1&to=yashgangane987@gmail.com",target:"_blank",rel:"noopener noreferrer",children:[P.jsx(Oa,{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"})}),P.jsx("span",{children:"Email"})]}),P.jsxs(za,{href:"tel:9021963099",children:[P.jsx(Oa,{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20 22.001h-16c-1.105 0-2-.896-2-2v-16c0-1.105.895-2 2-2h16c1.105 0 2 .895 2 2v16c0 1.104-.895 2-2 2zm-11-19.001h-2v-1h2v1zm4 0h-2v-1h2v1zm4 0h-2v-1h2v1zm-11 16h10v-1h-10v1zm12-1h-14v-14h14v14z"})}),P.jsx("span",{children:"Call"})]})]})]}),yT=V.footer`
   padding: 2rem 0;
   margin-top: 4rem;
   border-top: 1px solid ${({theme:e})=>e.colors.charcoal};
@@ -681,7 +681,7 @@ Error generating stack: `+o.message+`
     margin-top: 2.5rem;
     padding: 1.5rem 0;
   }
-`,yT=V(B.p)`
+`,vT=V(B.p)`
   font-size: 0.875rem;
   color: ${({theme:e})=>e.colors.gray400};
   margin: 0;
@@ -700,7 +700,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     font-size: 0.75rem;
   }
-`,vT=V(B.div)`
+`,wT=V(B.div)`
   display: flex;
   gap: 1.5rem;
   margin-top: 1rem;
@@ -721,7 +721,7 @@ Error generating stack: `+o.message+`
       height: 1.25rem;
     }
   }
-`,wT={hidden:{opacity:0},visible:{opacity:1,transition:{staggerChildren:.2,delayChildren:.2}}},xT={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},ST=()=>{const e=new Date().getFullYear();return P.jsxs(gT,{children:[P.jsxs(yT,{initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.1},variants:xT,children:["© ",e," Yash Gangane. All Rights Reserved."]}),P.jsxs(vT,{initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.1},variants:wT,children:[P.jsx("a",{href:"https://github.com/47yash",target:"_blank",rel:"noopener noreferrer","aria-label":"GitHub",children:P.jsx("svg",{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"})})}),P.jsx("a",{href:"https://www.linkedin.com/in/yash-gangane-656004194/",target:"_blank",rel:"noopener noreferrer","aria-label":"LinkedIn",children:P.jsx("svg",{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.044-1.852-3.044-1.853 0-2.136 1.445-2.136 2.939v5.674H9.573V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.923-2.063-2.065 0-1.145.92-2.066 2.063-2.066 1.145 0 2.064.922 2.064 2.066 0 1.142-.92 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.227 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.456c.98 0 1.772-.773 1.772-1.729V1.729C24 .774 23.207 0 22.227 0z"})})}),P.jsx("a",{href:"https://mail.google.com/mail/?view=cm&fs=1&to=yashgangane987@gmail.com",target:"_blank",rel:"noopener noreferrer","aria-label":"Email",children:P.jsx("svg",{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"})})})]})]})},kT=V.div`
+`,xT={hidden:{opacity:0},visible:{opacity:1,transition:{staggerChildren:.2,delayChildren:.2}}},ST={hidden:{opacity:0,y:12},visible:{opacity:1,y:0,transition:{duration:1.2,ease:[.4,0,.2,1]}}},kT=()=>{const e=new Date().getFullYear();return P.jsxs(yT,{children:[P.jsxs(vT,{initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.1},variants:ST,children:["© ",e," Yash Gangane. All Rights Reserved."]}),P.jsxs(wT,{initial:"hidden",whileInView:"visible",viewport:{once:!0,amount:.1},variants:xT,children:[P.jsx("a",{href:"https://github.com/47yash",target:"_blank",rel:"noopener noreferrer","aria-label":"GitHub",children:P.jsx("svg",{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"})})}),P.jsx("a",{href:"https://www.linkedin.com/in/yash-gangane-656004194/",target:"_blank",rel:"noopener noreferrer","aria-label":"LinkedIn",children:P.jsx("svg",{viewBox:"0 0 24 24",fill:"currentColor",children:P.jsx("path",{d:"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.044-1.852-3.044-1.853 0-2.136 1.445-2.136 2.939v5.674H9.573V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.923-2.063-2.065 0-1.145.92-2.066 2.063-2.066 1.145 0 2.064.922 2.064 2.066 0 1.142-.92 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.227 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.456c.98 0 1.772-.773 1.772-1.729V1.729C24 .774 23.207 0 22.227 0z"})})}),P.jsx("a",{href:"https://mail.google.com/mail/?view=cm&fs=1&to=yashgangane987@gmail.com",target:"_blank",rel:"noopener noreferrer","aria-label":"Email",children:P.jsx("svg",{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"})})})]})]})},CT=V.div`
     position: fixed;
     top: 0;
     left: 0;
@@ -729,7 +729,7 @@ Error generating stack: `+o.message+`
     height: 100%;
     background-color: #1a1919;
     z-index: -1;
-`,CT=()=>P.jsx(kT,{}),TT=V.div`
+`,TT=()=>P.jsx(CT,{}),PT=V.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -744,11 +744,11 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     padding: 0.5rem; /* Even smaller padding for mobile phones */
   }
-`,PT=V.div`
+`,ET=V.div`
   width: 100%;
   max-width: 1100px;
   text-align: left;
-`,ET=V.main`
+`,AT=V.main`
   margin-top: 6rem; /* Default for smaller screens */
 
   @media (min-width: 768px) {
@@ -758,7 +758,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 480px) {
     margin-top: 4rem; /* Even smaller margin for mobile phones */
   }
-`;function AT(){return P.jsxs(TT,{children:[P.jsx(CT,{}),P.jsxs(PT,{children:[P.jsx(sC,{}),P.jsxs(ET,{children:[P.jsx(fC,{}),P.jsx(vC,{}),P.jsx(DC,{}),P.jsx(bC,{}),P.jsx(uT,{}),P.jsx(mT,{}),P.jsx(ST,{})]})]})]})}const MT=xw`
+`;function MT(){return P.jsxs(PT,{children:[P.jsx(TT,{}),P.jsxs(ET,{children:[P.jsx(aC,{}),P.jsxs(AT,{children:[P.jsx(dC,{}),P.jsx(wC,{}),P.jsx(RC,{}),P.jsx(WC,{}),P.jsx(cT,{}),P.jsx(gT,{}),P.jsx(kT,{})]})]})]})}const DT=xw`
   html {
       scroll-behavior: smooth;
   }
@@ -796,4 +796,4 @@ Error generating stack: `+o.message+`
   ::-webkit-scrollbar-thumb:hover {
     background: ${({theme:e})=>e.colors.metal};
   }
-`,DT={colors:{ink:"#121212",charcoal:"#1A1A1A",metal:"#D4AF37",gray100:"#f3f4f6",gray200:"#e5e7eb",gray300:"#d1d5db",gray400:"#9ca3af"},fonts:{sans:"Inter, sans-serif",serif:"Playfair Display, serif"}};Ba.createRoot(document.getElementById("root")).render(P.jsx(q.StrictMode,{children:P.jsxs(yw,{theme:DT,children:[P.jsx(MT,{}),P.jsx(AT,{})]})}));
+`,RT={colors:{ink:"#121212",charcoal:"#1A1A1A",metal:"#D4AF37",gray100:"#f3f4f6",gray200:"#e5e7eb",gray300:"#d1d5db",gray400:"#9ca3af"},fonts:{sans:"Inter, sans-serif",serif:"Playfair Display, serif"}};Ba.createRoot(document.getElementById("root")).render(P.jsx(q.StrictMode,{children:P.jsxs(yw,{theme:RT,children:[P.jsx(DT,{}),P.jsx(MT,{})]})}));
