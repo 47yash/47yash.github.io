@@ -32,7 +32,7 @@
     "typescript": "^5.0.2",
     "vite": "^5.4.21"
   },
-  "homepage": "https://yourusername.github.io",
+  "homepage": "https://github.com/47yash/47yash.github.io.git",
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
